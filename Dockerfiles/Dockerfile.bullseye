@@ -48,7 +48,7 @@ ENV BUILD_TOOLS \
 	file \
 	flex \
 	g++ \
-	gcc \
+	gcc-9 \
 	libc-dev \
 	make \
 	patch \
