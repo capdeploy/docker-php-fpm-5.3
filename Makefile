@@ -26,7 +26,7 @@ TAG        = latest
 # Makefile.docker overwrites
 NAME       = PHP
 VERSION    = 5.3
-IMAGE      = devilbox/php-fpm-$(VERSION)
+IMAGE      = brett/php-fpm-$(VERSION)
 FLAVOUR    = latest
 FILE       = Dockerfile.$(FLAVOUR)
 DIR        = Dockerfiles
