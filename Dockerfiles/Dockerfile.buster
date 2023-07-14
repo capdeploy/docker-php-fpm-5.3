@@ -1,5 +1,4 @@
 FROM debian:buster-slim
-MAINTAINER "cytopia" <cytopia@everythingcli.org>
 
 
 ENV PHP_VERSION=5.3.29
