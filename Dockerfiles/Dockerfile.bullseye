@@ -71,9 +71,9 @@ ENV RUNTIME_TOOLS \
 RUN set -eux \
 	&& echo 'Acquire::Check-Valid-Until no;' > /etc/apt/apt.conf.d/99no-check-valid-until \
 	&& { \
-		echo "deb [trusted=yes] http://deb.debian.org/debian buster main"; \
-		echo "deb [trusted=yes] http://security.debian.org/debian-security buster/updates main"; \
-		echo "deb [trusted=yes] http://deb.debian.org/debian buster-updates main"; \
+		echo "deb [trusted=yes] http://deb.debian.org/debian bullseye main"; \
+		echo "deb [trusted=yes] http://security.debian.org/debian-security bullseye-security main"; \
+		echo "deb [trusted=yes] http://deb.debian.org/debian bullseye-updates main"; \
 	} > /etc/apt/sources.list
 
 
